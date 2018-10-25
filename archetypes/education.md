@@ -1,5 +1,5 @@
 ---
-school: "{{ replace .Name "-" " " | school }}"
+title: "{{ replace .Name "-" " " | title }}"
 from: {{ .Date }}
 to: {{ .Date }}
 degree: "Degree"

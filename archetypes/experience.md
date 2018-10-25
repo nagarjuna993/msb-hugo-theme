@@ -1,5 +1,5 @@
 ---
-role: "{{ replace .Name "-" " " | role }}"
+title: "{{ replace .Name "-" " " | title }}"
 from: {{ .Date }}
 to: {{ .Date }}
 featured: true
